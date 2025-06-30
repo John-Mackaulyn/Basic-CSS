@@ -1,0 +1,35 @@
+/* 
+=================================
+ARQUIVO CSS EXTERNO
+Estilo separados do HTML(melhor prática)
+=================================
+*/
+
+/* RESET BÁSICO */
+*{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* ESTILOS DE CABEÇALHO */
+h1
+{
+    color: yellow; 
+    background-color: green;
+}
+
+/* ESTILOS DE SUBTITULOS */
+h2{
+    background-color: lightblue; 
+    color: darkblue;
+}
+
+/* ESTILOS DE PARÁGRAFOS */
+
+p{
+    background-color: lightgray;
+    color: palevioletred; 
+}

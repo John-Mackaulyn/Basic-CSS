@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores Css</title>
+
+    <!-- Estilo interno para exemplos didáticos -->
+     <style>
+        /* reset  */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 2;
+            max-width: 800px;
+            right:auto;
+        }
+
+        /* Estilo títulos */
+        h1{
+            color: #333;
+            text-align: right;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        /* Estilos destaque */
+        .color-info{
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 5px solid #333;
+            margin: 10px 0;
+        }
+
+        .tema{
+            background-color: aquamarine;
+            border: 5px solid gray;
+        }
+     </style>
+</head>
+<body>
+    <h1>Cores em CSS</h1>
+    <p class="color-info">CSS oferece várias formas de especificar cores, os principais são:</p>
+
+    <!-- 1. Cores por nomes -->
+    <h2 style=" background-color: #f0f0f0; color: blue;">Cores por nomes</h2>
+    <div class="tema">
+        <p>CSS tem 140 nomes de cores pré-definidos como "blue", "red", "green", etc.</p>
+
+        <p><strong>Sintaxe:</strong> <code>color: blue;</code></p>
+
+        <p><strong>Limitação:</strong> Paleta limitada de cores e menos controle preciso</p>
+    </div>
+
+    <!-- 2. Cores em RGB -->
+    <h2 style="background-color: #f0f0f0; color: rgb(255,0,0);">Cores em RGB(Red, Green, Blue)</h2>
+    <div class="tema">
+        <p>Cada componente (vermelho, verde, azul) varia de 0 a 255.</p>
+
+        <p><strong>Sintaxe:</strong> <code>color: rgb(255, 0, 0);</code> (vermelho puro)</p>
+
+        <p><strong>Vantagem:</strong> Mais controle sobre as cores.</p>
+    </div>
+
+    <!-- 3. Cores em RGBA -->
+    <h2 style="background-color: #f0f0f0; color: rgba(255, 0, 255, 0.5);">Cores em RGBA(Red, Green, Blue, Alpha)</h2>
+    <div class="tema">
+        <p>Igual ao RGB, mas com canal alpha (transparência) de 0 (transparente) a 1 (opaco).</p>
+        
+        <p><strong>Sintaxe:</strong> <code>color: rgba(255, 0, 255, 0.5);</code> (roxo com 50% de opacidade)</p>
+        
+        <p><strong>Uso comum:</strong> Efeitos de transparência e sobreposições.</p>
+    </div>
+
+    <!-- 4. Cores em Hexadeximal -->
+    <h2 style=" background-color: #f0f0f0; color: #ff00ff;">Cores em Hexadeximal</h2>
+    <div class="tema">    
+        <p>Código de 6 dígitos hexadecimais (RRGGBB), onde #000000 é preto e #ffffff é branco.</p>
+        
+        <p><strong>Sintaxe:</strong> <code>color: #ff00ff;</code> (magenta)</p>
+        
+        <p><strong>Vantagens:</strong> Amplamente usado, formato compacto, suporta versão abreviada (#f0f).</p>
+    </div>
+    
+</body>
+</html>

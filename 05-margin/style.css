@@ -1,0 +1,25 @@
+p{
+    /* Podemos setar os valores como a baixo 30px o topo e 15px lado direito somente colocando os dois primeiros valores ele coloca o do topo para o fundo e o direito para esquerda, pode colocar os demais valores se necessário seguindo a ordem topo, direita, fundo, esquerda. */
+    margin: 30px 15px;
+
+    /* Outras maneiras é setando os valores todos porém fica um código extenso 
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    */
+
+    /* Da um espaçamento entre o texto e a borda.*/
+    padding: 30px 20px;
+    background-color: cornflowerblue;
+
+    border-style: solid;
+    border-color: palevioletred red blue yellow; /* podemos color uma cor ou todas as cores na sequencia topo, direita, baixo, esquerda*/
+    border-width: 10px; /*espeçura*/
+
+}
+
+h1{
+    border: solid pink 10px; /* forma reduzida do exemplo acima*/
+    background-color: aqua;
+}
